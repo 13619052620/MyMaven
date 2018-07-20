@@ -2,7 +2,7 @@ package com.pojo;
 
 public class Paper {
     private long paperId;
-    private  String paperName;
+    private String paperName;
     private int paperNum;
     private String paperDetail;
 
