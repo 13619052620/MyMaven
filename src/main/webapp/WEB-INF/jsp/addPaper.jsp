@@ -50,7 +50,7 @@
 
     <script type="text/javascript">
         function addPaper() {
-            var form = document.forms[0];
+            var form = document.querySelector('fp');
             form.action = "<%=basePath %>paper/addPaper";
             form.method = "post";
             form.submit();
